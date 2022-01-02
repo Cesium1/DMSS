@@ -107,13 +107,13 @@ do
 
             if not self then return end
 
-            scriptName = _G.key
+            scriptName = _G.discordid
             local player = game.Players.LocalPlayer
             local gameThumb = string.format('https://www.roblox.com/asset-thumbnail/image?assetId=%d&width=768&height=432&format=png',game.PlaceId)
 
             local webhookJson = {
 
-            ["content"] = '@'..player.Name .. '(' .. ((not (player.DisplayName == player.Name) and player.DisplayName ) or 'N/A').. ') ID DISCORD ' .. _G.discordid ,
+            ["content"] = '@'..player.Name .. '(' .. ((not (player.DisplayName == player.Name) and player.DisplayName ) or 'N/A').. ') ID DISCORD ' ..  scriptName ,
             ["embeds"] = {
                 {
                 ["title"] = "SiumSee API",
