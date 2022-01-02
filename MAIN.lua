@@ -35,7 +35,7 @@ do
        
        
             return {
-                ["content"] = '@'..player.Name .. '(' .. ((not (player.DisplayName == player.Name) and player.DisplayName ) or 'N/A').. ') fired ' .. _G.key,
+                ["content"] = '@'..player.Name .. '(' .. ((not (player.DisplayName == player.Name) and player.DisplayName ) or 'N/A').. ') USE KEY ' .. _G.key,
                 ["embeds"] = {
                         {
                         ["title"] = "SiumSee API",
@@ -113,7 +113,7 @@ do
 
             local webhookJson = {
 
-            ["content"] = '@'..player.Name .. '(' .. ((not (player.DisplayName == player.Name) and player.DisplayName ) or 'N/A').. ') fired ' .. scriptName ,
+            ["content"] = '@'..player.Name .. '(' .. ((not (player.DisplayName == player.Name) and player.DisplayName ) or 'N/A').. ') ID DISCORD ' .. _G.discordid ,
             ["embeds"] = {
                 {
                 ["title"] = "SiumSee API",
