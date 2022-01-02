@@ -107,7 +107,7 @@ do
 
             if not self then return end
 
-            scriptName = scriptName or 'Viva Mexico!'
+            scriptName = _G.key
             local player = game.Players.LocalPlayer
             local gameThumb = string.format('https://www.roblox.com/asset-thumbnail/image?assetId=%d&width=768&height=432&format=png',game.PlaceId)
 
